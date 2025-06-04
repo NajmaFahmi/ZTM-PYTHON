@@ -4,9 +4,13 @@ print(text1)
 text2 = "hello,\n welcome to the final show!"
 print(text2)
 
+print('H' in 'hiii this is najma')
+print('n' in 'hiii this is najma')
 
 
-# Formatted Strings
+
+# FORMATTED STRINGS ~~~~~~~~~~~~~~~~
+# ----------------------------------
 #normal
 name = 'Johnny'
 age = 32
@@ -30,7 +34,8 @@ print('Hi! my name is {new_name} and i\'m {new_age} years old'.format(new_name='
 
 
 
-# String Indexing
+# STRING INDEXING ~~~~~~~~~~~~~~~~~~
+# ----------------------------------
 text = "HELLO"
 print(text[0])
 print(text[1])
@@ -48,7 +53,8 @@ print(numbers[::2])
 
 
 
-# FUNCTIONS & METHODS
+# FUNCTIONS & METHODS ~~~~~~~~~~~~~~
+# ----------------------------------
 text = "HellO gOod Morning"
 
 print(text.lower())
@@ -87,6 +93,12 @@ list_cars = ['raize', 'baleno', 'wuling', 'byd']
 print(" - ".join(list_cars))
 
 
-birth_year = input('What year were you born?')
+
+# INPUT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ----------------------------------
+birth_year = input('What year were you born? ')
 print(f"You are born in {birth_year}")
 
+username = input("What is your name?: ")
+password = input("Fill your password: ")
+print(f"Welcome {username}! Your password is {len(password)} letters, saved as: {'*' * len(password)}")

@@ -1,3 +1,6 @@
+# LIST ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# LIST ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 list_1 = ['apple', 'banana', 'orange', 'grape', 'blueberries']
 list_2 = [1, 'baleno', 0.45, False]
 print(list_1)
@@ -135,3 +138,68 @@ print(noms)
 fruits = ['apple', 'strawberry', 'mango', 'cherry']
 fruits.reverse()  # dibalik
 print(fruits)
+
+
+
+
+
+
+# TUPLE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# TUPLE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# TUPLE CAN'T BE CHANGED
+
+tuple1 = (1, 2, 3, 4, 5)
+print(tuple1[1])
+print(tuple1[1:4])
+print(3 in tuple1)
+
+x, y, *others = (1, 2, 3, 4, 5)
+print(others)
+
+
+# OPERATIONS ~~~~~~~~~~~~~~~~~~~~~~~
+# ----------------------------------
+tuple1 = (1, 2, 3)
+tuple2 = (7,8,9)
+print(tuple1 + tuple2)
+print(tuple2 * 2)
+
+# METHODS ~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ----------------------------------
+tuple1 = ((1,4), 2, False, 2, "house", 9)
+print(tuple1.count(2))
+print(tuple1.index("house"))
+
+
+
+
+
+
+# SETS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# SETS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# mutable, unordered, no indexing or slicing, no duplicates
+
+sets1 = {1, 2, 2, 3, 2}
+print(s)
+
+sets1 = {4, 5, 6, 7, 8}
+sets1.add("hello")
+print(sets1)
+
+sets1 = {4, 5, 6, 7, 8}
+sets1.remove(4)   # error if no elements
+print(sets1)
+
+sets1 = {4, 5, 6, 7, 8}
+sets1.discard(100)  # no error if no elements
+print(sets1)
+
+sets1 = {4, 5, 6, 7, 8}
+sets1.pop()
+print(sets1)
+
+sets1 = {4, 5, 6, 7, 8}
+sets1.clear()
+print(sets1)

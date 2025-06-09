@@ -175,6 +175,7 @@ text = "Hellllooooooooo....."
 if (n := len(text)) > 10:
     print(f"The text contains {n} letters.")
 
+
 # # before
 # line = input("Enter something : ")
 # while line != "quit":
